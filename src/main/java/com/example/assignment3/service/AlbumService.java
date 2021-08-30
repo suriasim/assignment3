@@ -29,11 +29,11 @@ public class AlbumService {
         albumRepository.deleteById(albumId);
     }
 
-    /*
+
     public List<Album> getById(String id) {
         return albumRepository.findAllById(id);
     }
-    */
+
 /*
     public Album getAlbum() {
         return albumRepository.getAlbum();

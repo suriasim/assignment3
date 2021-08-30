@@ -30,10 +30,10 @@ public class UserService {
         userRepository.deleteById(userId);
     }
 
-    /*
+
     public List<User> getById(String id) {
         return userRepository.findAllById(id);
     }
-*/
+
 
 }

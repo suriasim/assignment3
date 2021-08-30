@@ -29,11 +29,11 @@ public class CommentService {
         commentRepository.deleteById(commentId);
     }
 
-    /*
+
     public List<Comment> getById(String id) {
         return commentRepository.findAllById(id);
     }
-    */
+
 
 
 }

@@ -24,13 +24,13 @@ public class CommentResource {
         return commentService.getAllComments();
     }
 
-    /*
-    @GetMapping
+
+    @GetMapping("/byID")
     public List<Comment> getById(@RequestParam(name = "id") String id) {
         return commentService.getById(id);
     }
 
-     */
+
 
     @PutMapping
     public Comment updateComment( @RequestBody Comment comment) {

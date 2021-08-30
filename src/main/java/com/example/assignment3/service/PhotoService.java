@@ -30,11 +30,11 @@ public class PhotoService {
         photoRepository.deleteById(photoId);
     }
 
-    /*
+
     public List<Photo> getById(String id) {
         return photoRepository.findAllById(id);
     }
-    */
+
 
 
 }

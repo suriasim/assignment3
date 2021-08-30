@@ -25,12 +25,12 @@ public class UserResource {
         return userService.getAllUsers();
     }
 
-    /*
-    @GetMapping
+
+    @GetMapping("/byID")
     public List<User> getById(@RequestParam(name = "id") String id) {
-        return userService.findAllById(id);
+        return userService.getById(id);
     }
-*/
+
 
 
     @PutMapping

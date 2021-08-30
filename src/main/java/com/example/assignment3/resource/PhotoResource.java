@@ -25,13 +25,13 @@ public class PhotoResource {
         return photoService.getAllPhotos();
     }
 
-    /*
-    @GetMapping
+
+    @GetMapping("/byID")
     public List<Photo> getById(@RequestParam(name = "id") String id) {
         return photoService.getById(id);
     }
 
-     */
+
 
     @PutMapping
     public Photo updatePhoto( @RequestBody Photo photo) {
