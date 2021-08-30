@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/photo")
 public class PhotoResource {
 
     @Autowired
     private PhotoService photoService;
 
-    @PostMapping("/photo")
+    @PostMapping
     public Photo savePhoto(@RequestBody Photo photo) {
         return photoService.savePhoto(photo);
     }

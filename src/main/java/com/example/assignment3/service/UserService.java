@@ -31,9 +31,9 @@ public class UserService {
     }
 
     /*
-    public List<Album> getById(String id) {
-        return albumRepository.findAllById(id);
+    public List<User> getById(String id) {
+        return userRepository.findAllById(id);
     }
-    */
+*/
 
 }

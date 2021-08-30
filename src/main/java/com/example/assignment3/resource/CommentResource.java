@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/comment")
 public class CommentResource {
 
     @Autowired
     private CommentService commentService;
 
-    @PostMapping("/comment")
+    @PostMapping
     public Comment saveComment(@RequestBody Comment comment) {
         return commentService.saveComment(comment);
     }
